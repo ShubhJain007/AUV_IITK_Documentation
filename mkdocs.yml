@@ -14,9 +14,8 @@ nav:
     # - Interface RS485: 'software/interface_RS485.md'
     - DVL: 'software/dvl.md'
     - IMU: 'software/imu.md'
-    - Provider Media: 'software/provider_media.md'
-    - Proc Vision: 'software/proc_vision.md'
-    - Proc Navigation: 'software/proc_navigation.md'
+    - Vision: 'software/vision.md'
+    - Navigation: 'software/proc_navigation.md'
   - Electrical Documentation:
     - Overview: 'electrical/overview.md'
     - Hydrophones: 'electrical/hydrophones.md'
@@ -25,7 +24,7 @@ nav:
     - Overview: 'mechanical/overview.md'
   - Proof of Concept:
     - 2018-2019: 'POC/2018_2019.md'
-  - About S.O.N.I.A.:
+  - About AUV_IITK:
     - The Project: 'about/project.md'
     - Open Source Philosophy: 'about/open_source.md'
     - Sponsors of AUV IITK.: 'about/sponsors.md'

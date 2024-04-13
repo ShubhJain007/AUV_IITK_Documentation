@@ -21,7 +21,7 @@ This documentation is organized into a couple section:
 - [Electrical Documentation](#electrical)
 - [Mechanical Documentation](#mechanical)
 - [Proof of Concept](#POC)
-- [About S.O.N.I.A.](#about)
+- [About AUV_IITK ](#about)
 
 
 ## User Documentation <a name="user"></a>
@@ -42,10 +42,9 @@ This documentation is organized into a couple section:
 - [Overview](software/overview.md)
 - [DVL](software/provider_dvl.md)
 - [IMU](software/imu.md)
-- [Provider Media](software/provider_media.md)
-- [Proc Vision](software/proc_vision.md)
-- [Proc Navigation](software/proc_navigation.md)
-- [Proc Mapping](software/proc_mapping.md)
+- [Vision](software/vision.md)
+- [Navigation](software/proc_navigation.md)
+<!-- - [Proc Mapping](software/proc_mapping.md) -->
 
 ## Electrical Documentation <a name="electrical"></a>
 
