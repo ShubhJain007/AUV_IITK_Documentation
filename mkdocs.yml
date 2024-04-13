@@ -28,7 +28,7 @@ nav:
     - Sponsors of AUV IITK.: 'about/sponsors.md'
 
 site_name: AUV IITK Documentation
-repo_url: https://github.com/ShubhJain007/AUV_IITK_Documentation
+repo_url: https://github.com/ShubhJain007/AUV_IITK_Documentation/tree/main
 
 markdown_extensions:
   - admonition
