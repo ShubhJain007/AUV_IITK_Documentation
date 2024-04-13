@@ -1,0 +1,124 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red49\green87\blue185;\red242\green242\blue242;\red0\green0\blue0;
+\red41\green54\blue61;\red26\green108\blue60;\red49\green58\blue166;\red90\green62\blue208;}
+{\*\expandedcolortbl;;\cssrgb\c24706\c43137\c77647;\cssrgb\c96078\c96078\c96078;\cssrgb\c0\c0\c0\c54118;
+\cssrgb\c21176\c27451\c30588;\cssrgb\c10980\c49020\c30196;\cssrgb\c25098\c31765\c70980;\cssrgb\c43137\c34902\c85098;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs27\fsmilli13600 \cf2 \cb3 \expnd0\expndtw0\kerning0
+name\cf4 :\cf5  \cf6 ci\cf5  \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 on\cf4 :\cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3   \cf2 push\cf4 :\cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3     \cf2 branches\cf4 :\cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3       \cf4 -\cf5  \cf6 master\cf5  \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3       \cf4 -\cf5  \cf6 main\cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 permissions\cf4 :\cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3   \cf2 contents\cf4 :\cf5  \cf6 write\cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 jobs\cf4 :\cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3   \cf2 deploy\cf4 :\cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3     \cf2 runs-on\cf4 :\cf5  \cf6 ubuntu-latest\cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3     \cf2 steps\cf4 :\cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3       \cf4 -\cf5  \cf2 uses\cf4 :\cf5  \cf6 actions/checkout@v4\cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3       \cf4 -\cf5  \cf2 name\cf4 :\cf5  \cf6 Configure Git Credentials\cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3         \cf2 run\cf4 :\cf5  \cf4 |\cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3           \cf8 git config user.name github-actions[bot]\cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3           \cf8 git config user.email 41898282+github-actions[bot]@users.noreply.github.com\cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3       \cf4 -\cf5  \cf2 uses\cf4 :\cf5  \cf6 actions/setup-python@v5\cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3         \cf2 with\cf4 :\cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3           \cf2 python-version\cf4 :\cf5  \cf6 3.x\cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3       \cf4 -\cf5  \cf2 run\cf4 :\cf5  \cf6 echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV\cf5  \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3       \cf4 -\cf5  \cf2 uses\cf4 :\cf5  \cf6 actions/cache@v4\cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3         \cf2 with\cf4 :\cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3           \cf2 key\cf4 :\cf5  \cf6 mkdocs-material-$\{\{ env.cache_id \}\}\cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3           \cf2 path\cf4 :\cf5  \cf6 .cache\cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3           \cf2 restore-keys\cf4 :\cf5  \cf4 |\cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3             \cf8 mkdocs-material-\cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3       \cf4 -\cf5  \cf2 run\cf4 :\cf5  \cf6 pip install mkdocs-material\cf5  \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3       \cf4 -\cf5  \cf2 run\cf4 :\cf5  \cf6 mkdocs gh-deploy --force}
