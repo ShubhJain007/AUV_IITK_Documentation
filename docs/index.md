@@ -43,7 +43,7 @@ This documentation is organized into a couple section:
 - [DVL](software/dvl.md)
 - [IMU](software/imu.md)
 - [Vision](software/vision.md)
-- [Navigation](software/navigation.md)
+<!-- - [Navigation](software/navigation.md) -->
 
 ## Electrical Documentation <a name="electrical"></a>
 
