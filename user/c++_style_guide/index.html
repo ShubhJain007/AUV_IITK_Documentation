@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title><a name="title"></a> C++ Style Guide - AUV IITK Documentation</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "\u003ca name=\"title\"\u003e\u003c/a\u003e C++ Style Guide";
+        var mkdocs_page_input_path = "user/c++_style_guide.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> AUV IITK Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">User Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../getting_started/">Getting Started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../installation/">Installation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../developers_guide/">Developers Guide</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Software Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../software/overview/">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../software/dvl/">DVL</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../software/imu/">IMU</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../software/provider_media/">Provider Media</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../software/proc_vision/">Proc Vision</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../software/proc_navigation/">Proc Navigation</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Electrical Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../electrical/overview/">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../electrical/hydrophones/">Hydrophones</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../electrical/dvl/">DVL</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mechanical Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../mechanical/overview/">Overview</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Proof of Concept</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../POC/2018_2019/">2018-2019</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">About S.O.N.I.A.</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../about/project/">The Project</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../about/open_source/">Open Source Philosophy</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../about/sponsors/">Sponsors of AUV IITK.</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">AUV IITK Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active"><a name="title"></a> C++ Style Guide</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/ShubhJain007/AUV_IITK_Documentation.git/edit/master/docs/user/c++_style_guide.md" class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="c-style-guide"><a name="title"></a> C++ Style Guide</h1>
+<h2 id="file-and-directory-architecture">File and Directory Architecture</h2>
+<h3 id="naming-of-packages"><a name=""></a> Naming of Packages</h3>
+<p>???</p>
+<h3 id="structure-of-a-project"><a name=""></a> Structure of a Project</h3>
+<p>???</p>
+<h3 id="naming-of-files"><a name=""></a> Naming of files</h3>
+<p>???</p>
+<h3 id="project-documentation"><a name=""></a> Project Documentation</h3>
+<p>???</p>
+<h2 id="naming-conventions">Naming Conventions</h2>
+<h3 id="classes"><a name=""></a> Classes</h3>
+<p>???</p>
+<h3 id="functions"><a name=""></a> Functions</h3>
+<p>???</p>
+<h3 id="member-variables"><a name=""></a> Member Variables</h3>
+<p>???</p>
+<h3 id="constants"><a name=""></a> Constants</h3>
+<p>???</p>
+<h2 id="best-practices">Best Practices</h2>
+<h3 id="usage-of-type-deduction"><a name=""></a> Usage of type deduction</h3>
+<p>???</p>
+<h3 id="declare-your-constructors-explicit"><a name=""></a> Declare your constructors explicit</h3>
+<p>???</p>
+<h3 id="inline-your-method-more-often"><a name=""></a> Inline your method more often</h3>
+<p>???</p>
+<h3 id="use-the-keywork-override"><a name=""></a> Use the keywork override</h3>
+<p>???</p>
+<h3 id="use-the-keywork-nullptr"><a name=""></a> Use the keywork nullptr</h3>
+<p>???</p>
+<h3 id="dont-use-raw-pointers-smart-pointers-are-great"><a name=""></a> Don’t use raw pointers, smart pointers are great !</h3>
+<p>???</p>
+<h3 id="avoid-c-style-casting"><a name=""></a> Avoid C-style casting</h3>
+<p>???</p>
+<h3 id="respect-the-declaration-order-of-member-variables"><a name=""></a> Respect the declaration order of member variables</h3>
+<p>???</p>
+<h3 id="declare-your-destructor-virtual-for-polymorphic-class"><a name=""></a> Declare your destructor virtual for polymorphic class</h3>
+<p>???</p>
+<h3 id="declare-your-method-constants-whenever-it-is-possible"><a name=""></a> Declare your method constants whenever it is possible</h3>
+<p>???</p>
+<h3 id="use-bool-instead-of-int-for-conditions"><a name=""></a> Use bool instead of int for conditions</h3>
+<p>???</p>
+<h3 id="declare-a-public-ptr-typedef-in-your-classes"><a name=""></a> Declare a public &lsquo;Ptr&rsquo; typedef in your classes</h3>
+<p>???</p>
+<h2 id="recommended-tools">Recommended Tools</h2>
+<h3 id="clang-format"><a name=""></a> clang-format</h3>
+<h3 id="cpplint"><a name=""></a> cpplint</h3>
+<h3 id="cppcheck"><a name=""></a> cppcheck</h3>
+<h3 id="valgrind"><a name=""></a> valgrind</h3>
+<h2 id="recommended-references">Recommended References</h2>
+<h3 id="introductory"><a name=""></a> Introductory</h3>
+<ul>
+<li><a href="http://www.amazon.com/dp/0321958314/?tag=stackoverfl08-20">A Tour of C++ (Bjarne Stroustrup)</a></li>
+<li><a href="https://openclassrooms.com/courses/programmez-avec-le-langage-c">Programmez avec le langage C++ (Open Classrooms)</a></li>
+</ul>
+<h3 id="intermediate"><a name=""></a> Intermediate</h3>
+<ul>
+<li><a href="http://www.amazon.com/dp/0321334876/?tag=stackoverfl08-20">Effective C++ (Scott Meyers)</a></li>
+<li><a href="http://www.amazon.com/dp/1491903996/?tag=stackoverfl08-20">Effective Modern C++ (Scott Meyers)</a></li>
+<li><a href="http://www.amazon.com/dp/020163371X/?tag=stackoverfl08-20">More Effective C++ (Scott Meyers)</a></li>
+<li><a href="http://www.amazon.ca/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612">Design Patterns: Elements of Reusable Object-Oriented Software (GoF)</a></li>
+<li><a href="https://github.com/isocpp/CppCoreGuidelines">C++ Core Guidelines</a></li>
+</ul>
+<h3 id="advanced"><a name=""></a> Advanced</h3>
+<ul>
+<li><a href="http://www.amazon.com/dp/0201704315/?tag=stackoverfl08-20">Modern C++ Design (Andrei Alexandrescu)</a></li>
+<li><a href="http://www.amazon.com/dp/1460966163/?tag=stackoverfl08-20">Advanced C++ Metaprogramming (Davide Di Gennaro)</a></li>
+<li><a href="http://www.amazon.com/dp/1933988770/?tag=stackoverfl08-20">C++ Concurrency in Action (Anthony Williams)</a></li>
+</ul>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/ShubhJain007/AUV_IITK_Documentation.git" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

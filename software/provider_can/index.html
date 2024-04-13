@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>provider_can - AUV IITK Documentation</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "provider_can";
+        var mkdocs_page_input_path = "software/provider_can.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> AUV IITK Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">User Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../user/getting_started/">Getting Started</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../user/installation/">Installation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../user/developers_guide/">Developers Guide</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Software Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../overview/">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../dvl/">DVL</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../imu/">IMU</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../provider_media/">Provider Media</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../proc_vision/">Proc Vision</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../proc_navigation/">Proc Navigation</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Electrical Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../electrical/overview/">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../electrical/hydrophones/">Hydrophones</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../electrical/dvl/">DVL</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mechanical Documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../mechanical/overview/">Overview</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Proof of Concept</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../POC/2018_2019/">2018-2019</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">About S.O.N.I.A.</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../about/project/">The Project</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../about/open_source/">Open Source Philosophy</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../about/sponsors/">Sponsors of AUV IITK.</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">AUV IITK Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">provider_can</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/ShubhJain007/AUV_IITK_Documentation.git/edit/master/docs/software/provider_can.md" class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="provider_can">provider_can</h1>
+<p>The <code>provider_can</code> package is the module that handles communicating with SONIA&rsquo;s subarine CAN devices.
+SONIA&rsquo;s CAN communication standard is explained in another documentation. </p>
+<p><strong>available devices are:</strong></p>
+<ol>
+<li>Barometer,</li>
+<li>Led indicator,</li>
+<li>Diver interface,</li>
+<li>Hydrophones,</li>
+<li>thrusters (8),</li>
+<li>Power supply,</li>
+<li>Mission switch,</li>
+<li>Droppers,</li>
+<li>Grabber,</li>
+<li>Torpedo launcher.</li>
+</ol>
+<h2 id="overview">Overview</h2>
+<h3 id="usage-example">Usage Example</h3>
+<p>A launch file exists for launching the <code>provider_can</code> package.
+One you have compiled and sourced the <code>devel/setup.bash</code> file, you can simply
+execute:</p>
+<pre><code>roslaunch provider_can provider_can.launch
+</code></pre>
+<p>This will start the CAN communication system and open all the published topics.</p>
+<h2 id="global-architecture">Global Architecture</h2>
+<h3 id="class-diagrams">Class Diagrams</h3>
+<p><img src="/assets/img/provider_can_class_diagram.png" alt="Class Diagram" style="width: 500px;"/></p>
+<h2 id="configuration-file">Configuration file</h2>
+<p>In the <code>/provider_can/config</code> directory, you can find <code>kvaser_conf.yaml</code> file which can be 
+passed as a parameter to the ROS node. This file allows the user to modify some of
+the configurations of the CAN drivers. The content of the yaml file is shown below.</p>
+<ul>
+<li>provider_can/driver/baudrate: 125</li>
+<li>provider_can/driver/device_id: 1</li>
+<li>provider_can/driver/unique_id: 1</li>
+<li>provider_can/driver/channel: 0</li>
+<li>provider_can/driver/usb_device: &ldquo;KVaser&rdquo;</li>
+</ul>
+<p><strong>baudrate</strong>: CAN baudrate values, in kHz. possible values are: 50, 62, 100, 125, 250 and 1000. 
+Actual config is 125.<br />
+<strong>device_id</strong> and <strong>unique_id</strong>: Computer ID. This is the CAN ID that will be used by the provider_can when sending broadcast messages.<br />
+See Electrical section in the Wiki page for more inforamtions about IDs.<br />
+<strong>channel</strong>: KVaser bus channel to use.<br />
+<strong>usb_device</strong>: Actually, only one CAN device is possible, which is KVaser. All KVaser devices use the same librairies.  </p>
+<h2 id="ros-node">ROS Node</h2>
+<h3 id="subscribed-topics">Subscribed Topics</h3>
+<p>None. <code>provider_can</code> only publish topics.</p>
+<h3 id="published-topics">Published Topics</h3>
+<p>For each device initialized, there are 3 topics published:  </p>
+<ul>
+<li>DEVICE_msgs,</li>
+<li>DEVICE_notices,</li>
+<li>DEVICE_properties,</li>
+</ul>
+<p>Where DEVICE is the name of the specific device (example: barometer_msgs)  </p>
+<p><strong>DEVICE_msgs</strong></p>
+<p>Theses topics will contain all device&rsquo;s specific informations that are
+important during subarine&rsquo;s operation, such as speed for thrusters or
+pressure for barometer.</p>
+<p><strong>DEVICE_notices</strong></p>
+<p>These topics will contain ping responses and faults for each devices.</p>
+<p><strong>DEVICE_properties</strong></p>
+<p>These topics will contain devices properties. These properties will<br />
+be published at <code>provider_can</code> startup for each discovered and known devices.</p>
+<p><strong>Properties are:</strong>  </p>
+<ul>
+<li>uint16 firmware_version : <code>Signature of LPC chip</code></li>
+<li>uint32 uc_signature : <code>may be RESET, SLEEP, WAKEUP or ISP</code></li>
+<li>uint8 capabilities : <code>any data</code></li>
+<li>uint8 device_data : <code>RTR send rate, in ms</code></li>
+<li>uint16 poll_rate</li>
+</ul>
+<p>In Winter 2016 version of provider_can, poll_rate properties means nothing.<br />
+It is not actually implemented in ELE part. It will be later on.</p>
+<h3 id="services">Services</h3>
+<p><code>provider_can</code> offers 1 service, which is defined in <code>SendCanMessage.srv</code>
+in <code>sonia_msgs</code> file.
+The name of the service is <code>send_can_message</code>.</p>
+<p>The service is common to all devices. You may set thrusters speed,
+light intensity, diver_interface displayed text, etc. with this same
+service. See the parameters for more informations.</p>
+<h3 id="parameters">Parameters</h3>
+<p>This part is very important. It explains how to use the main service
+of the provider_can, which is <code>send_can_message</code>. </p>
+<p><code>/provider_can/can/send_can_message</code> (<code>uint8 device_id</code>, <code>uint8 unique_id</code>,<code>uint8 method_number</code>,<code>float64 parameter_value</code>,<code>string string_param</code>) : returns uint8</p>
+<p>As an example, if we want to send speed 50 to the port thruster, we would send this command in a command prompt:</p>
+<p><code>rosservice call /provider_can/send_can_message 2 1 0 50 ""</code></p>
+<ul>
+<li>param device_id = 2           // DEVICE_ID_actuators (constant defined in SendCanMessage.srv)</li>
+<li>param unique_id = 1           // UNIQUE_ID_ACT_port_motor (constant defined in SendCanMessage.srv)</li>
+<li>param method_number = 0       // METHOD_MOTOR_set_speed (constant defined in SendCanMessage.srv)</li>
+<li>param parameter_value = 50    // speed value</li>
+<li>param string_param = &ldquo;&rdquo;       // unused</li>
+</ul>
+<p>See next sections for more explanations.</p>
+<p><strong>Param <code>device_id</code></strong></p>
+<p><code>device_id</code> represents the ID number of a specific class of devices, such as
+actuator or sensors. The IDs are all defined as constants in <code>send_can_message</code> service.</p>
+<p><strong>Param <code>unique_id</code>:</strong></p>
+<p>unique_id represents the ID number of a specific device in a device_id class.
+The IDs are all defined as constants in <code>send_can_message</code> service.</p>
+<p><strong>Param <code>method_number</code> and <code>parameter_value</code>:</strong></p>
+<p><code>method_number</code> is the method you want to call from the specified device. Some methods<br />
+are common to all devices. <code>parameter_value</code> is the only possible parameter of that method.
+Note: diver_interface has a string parameter. All methods numbers are defined as contants in the service .srv file.</p>
+<p><strong>Param <code>string_param</code></strong></p>
+<p>This parameter is only used by diver interface. It is the parameter
+for the methods METHOD_DIVER_set_mission_string and METHOD_DIVER_set_state_string.
+It changes the strings displayed on the interface.</p>
+<p><strong>return</strong></p>
+<p>can_send_message always return 0 or 1, depending if the device specified is 
+present or not on the can bus.</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/ShubhJain007/AUV_IITK_Documentation.git" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
