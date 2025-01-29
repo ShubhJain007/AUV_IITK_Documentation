@@ -1,6 +1,8 @@
 # AUV IITK Documentation
 
 Welcome to the **AUV IITK Documentation** repository! This repository contains detailed documentation related to the Autonomous Underwater Vehicle (AUV) project at IIT Kanpur. It serves as a comprehensive resource for understanding the AUV's design, software architecture, algorithms, and testing methodologies.
+Visit-> https://shubhjain007.github.io/AUV_IITK_Documentation/
+
 
 ## Repository Structure
 
